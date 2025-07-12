@@ -111,15 +111,6 @@ npm run ios
 yarn ios
 ```
 
-## 🧪 Testing
-
-Run the test suite:
-```bash
-npm test
-# OR
-yarn test
-```
-
 Run tests in watch mode:
 ```bash
 npm test -- --watch
@@ -172,7 +163,7 @@ ShopIt/
 
 The app uses Redux Toolkit for state management with the following structure:
 
-- **userSlice**: Manages cart items, wishlist, and user preferences
+- **userSlice**: Manages cart items
 - **Persistence**: Automatic state persistence using Redux Persist
 - **Async Actions**: Handled with Redux Thunk middleware
 
